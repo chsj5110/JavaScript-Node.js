@@ -1,0 +1,182 @@
+body {
+  background-color: rgb(69, 69, 69);
+  font-family: "Nanum Myeongjo", sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-header {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 34);
+  align-items: center;
+  padding: 0 5%;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(182, 161, 104);
+}
+
+.menu-btn{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+.menu-btn span{
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+#main-header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-header li {
+  margin: 0 1rem;
+}
+
+#main-header nav a {
+  font-size: 1.25rem;
+  color: rgb(182, 161, 104);
+}
+
+#main-header nav a:hover {
+  background-color: rgb(182, 161, 104);
+  color: rgb(69, 69, 69);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(34, 34, 34);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-drawer:target {
+  display: block;
+
+}
+
+#side-drawer header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#side-drawer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 4rem 1rem;
+}
+
+#side-drawer li {
+  margin: 1rem 0;
+}
+
+#side-drawer a{
+  color: rgb(182, 161, 104);
+  font-size: 1.5rem;
+}
+
+.sweater-item-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.sweater-item-content h2 {
+  font: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(182, 161, 104);
+}
+
+#latest-product {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+#latest-product ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1 rem;
+  margin: 0;
+  padding: 0;
+}
+
+#latest-product li {
+  background-color: rgb(182, 156, 104);
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 10px;
+  height: 30rem;
+}
+
+#latest-product img {
+  height: 23rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: rgb(206, 181, 82);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn:hover {
+    background-color:  rgb(206, 154, 82);
+}
+
+@media (max-width: 48rem) {
+    #main-header nav {
+        display: none;
+    }
+
+    .menu-btn{
+      display: flex;
+    }
+
+
+    main h1{
+        font-size: 1.5rem;
+    }
+
+    #latest-product ul{
+        grid-template-columns: 100%;
+    }
+}
