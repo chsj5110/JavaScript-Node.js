@@ -1,0 +1,102 @@
+html {
+  --color-grey-100: rgb(230, 230, 230);
+  --color-grey-400: rgb(149, 149, 149);
+  --color-grey-600: rgb(59, 59, 59);
+  --color-grey-900: rgb(41, 41, 41);
+
+  --color-primary-300: rgb(127, 211, 248);
+  --color-primary-700: rgb(67, 176, 223);
+
+  --size-1: 0.8rem;
+  --size-3: 1.5rem;
+  --size-5: 3rem;
+
+  font-family: "Nanum Myeongjo", sans-serif;
+  background-color: var(--color-grey-100);
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-container {
+  width: 250px;
+  height: 480px;
+  background-color: white;
+  align-items: center;
+  margin: 50px auto;
+  box-shadow: 0.2rem 0.3rem 0.7rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: var(--size-3);
+  color: var(--color-grey-600);
+  padding: 1.5rem 2rem 0 2rem;
+}
+
+
+.card-info {
+  font-size: var(--size-1);
+  color: var(--color-grey-400);
+  padding: 0 2rem 0 2rem;
+}
+
+.price {
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--size-5);
+  color: var(--color-grey-900);
+  background-color: var(--color-primary-300);
+  padding: 0 2rem 0 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.price-info {
+  font-size: var(--size-1);
+  color: var(--color-grey-400);
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+}
+
+.sub-details {
+  font-size: var(--size-1);
+  padding: 0 2rem 0 2rem;
+  color: var(--color-grey-600);
+}
+
+.sub-feature {
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    width: 15px;
+    padding: 0 5px 0 0;
+}
+
+.join-btn {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.join-btn a {
+  font-family: "Noto Sans KR", sans-serif;
+  color: var(--color-primary-700);
+  display: inline-block;
+  width: 70%;
+  border: 1px solid rgb(224, 224, 224);
+  padding: 10px;
+  margin: 0 0 30px 0;
+  transition: background-color 0.5s ease-out;
+}
+
+.join-btn a:hover {
+  background-color:  var(--color-primary-700);
+  color: white;
+}
