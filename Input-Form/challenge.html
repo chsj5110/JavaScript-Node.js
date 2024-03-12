@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="challenge.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="/challenge" method="GET" id="main-form" name="mainform">
+        <section>
+          <h2>How can we help you?</h2>
+          <ul>
+            <li>
+              <label for="username">Your Name</label>
+              <input type="text" id="username" required/>
+            </li>
+            <li>
+              <label for="useremail">Your E-Mail Address</label>
+              <input type="email" id="useremail" required/>
+            </li>
+            <li>
+                <label for="userphonenum">Your Phone Number</label>
+                <input type="number" id="userphonenum" required>
+            </li>
+            <li>
+                <label for="usermessage">Your Message</label>
+                <textarea name="" id="usermessage" rows="5" placeholder="Leave your message here"></textarea>
+            </li>
+          </ul>
+        </section>
+        <section>
+            <label for="findway">How did you find us?</label>
+            <select name="" id="findway">
+                <option>Web Search</option>
+                <option>Advertisement</option>
+                <option>Friends</option>
+            </select>
+        </section>
+        <section >
+            <ul>
+                <h2>How should we reply?</h2>
+                <li class="container-form">
+                    <input type="radio" name="reply" id="reply-call">
+                    <label for="">Call me</label>
+                </li>
+                <li class="container-form">
+                    <input type="radio" name="reply" id="reply-email">
+                    <label for="">Send me an email</label>
+                </li>
+                <li class="container-form">
+                    <input type="radio" name="reply" id="no-reply">
+                    <label for="">Don't reply</label>
+                </li>
+            </ul>
+        </section>
+        <section class="container-chk">
+            <input type="checkbox" id="Terms-chk" required>
+            <label for="Terms-chk">Accept Terms</label>
+        </section>
+        <section id="container-button">
+            <button type="reset" id="Reset-btn">Clear</button>
+            <button type="submit" id="Submit-btn">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
