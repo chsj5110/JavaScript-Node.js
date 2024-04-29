@@ -2,11 +2,6 @@
 Private Projects
 
 ## HTML & CSS
-Branch : htmmlcss
-Branch : BookPage
-Branch : ResponsiveWeb
-Branch : MonthlySubscription
-
 - Section 1 : 24.01.31
 - Section 2 : 24.01.31 ~ 24.02.02
 - Section 3 : 24.02.02 ~ 24.02.05
@@ -17,10 +12,14 @@ Branch : MonthlySubscription
 - Section 8 : 24.02.27 ~ 24.03.02
 - Section 9 : 24.03.03
 - Section 10 : 24.03.05 ~ 24.03.12
+
+## JavaScript
 - Section 11 : 24.03.12 ~ 24.03.18
 - Section 12 : 24.03.24 ~ 24.04.02
 - Section 13 : 24.04.02 ~ 24.04.18
 - Section 14 : 24.04.18 ~ 24.04.22
 - Section 15 : 24.04.28 ~ 24.04.28
 - Section 16 : 24.04.28 ~ 24.04.28
+
+## NodeJS
 - Section 17 : 24.04.29 ~ 24.04.29
