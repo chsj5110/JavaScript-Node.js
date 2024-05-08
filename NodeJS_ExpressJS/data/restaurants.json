@@ -1,0 +1,34 @@
+[
+  {
+    "id": "r1",
+    "name": "Test",
+    "address": "Test Address",
+    "cuisine": "Korean",
+    "website": "https://eefd",
+    "description": "Testing..."
+  },
+  {
+    "id": "r2",
+    "name": "Test2",
+    "address": "Test City",
+    "cuisine": "dhdidhl",
+    "website": "https://fhiehjwilhn",
+    "description": "Good"
+  },
+  {
+    "id": "r3",
+    "name": "Restaurant 3",
+    "address": "City, Restaurant",
+    "cuisine": "Mexican",
+    "website": "https://fhiehjwilhn",
+    "description": "Amazing"
+  },
+  {
+    "name": "Munich Fines Restaurant",
+    "address": "Greatstreet 5, Munich",
+    "cuisine": "German",
+    "website": "https://mdmeifn",
+    "description": "Good",
+    "id": "32c1e7ac-f075-4643-9bad-8f7fa715db6c"
+  }
+]
