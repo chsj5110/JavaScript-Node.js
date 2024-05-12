@@ -28,4 +28,4 @@ Private Projects
 - Section 20 : 24.05.05 ~ 24.05.08
 
 ## Advanced JavaScript
-- Section 21 : 24.05.09 ~
+- Section 21 : 24.05.09 ~ 24.05.12
