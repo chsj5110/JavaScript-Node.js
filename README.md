@@ -32,4 +32,5 @@ Private Projects
 
 ## SQL DataBase
 - Section 22 : 24.05.14 ~ 24.05.14
-- Section 23 : 24.05.14 ~ 24.05.
+- Section 23 : 24.05.14 ~ 24.05.18
+- Section 24 : 24.05.19 ~ 24.05
